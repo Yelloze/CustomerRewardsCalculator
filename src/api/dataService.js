@@ -59,37 +59,37 @@ export default function() {
         },
         {
           custid: 2,
-          name: "GoGreen",
+          name: "Green Dot",
           amt: 125,
             transDt: "05-01-2018"
         },
         {
           custid: 2,
-          name: "GoGreen",
+          name: "Green Dot",
           amt: 75,
             transDt: "05-21-2019"
         },
         {
           custid: 2,
-          name: "GoGreen",
+          name: "Green Dot",
           amt: 10,
             transDt: "06-01-2018"
         },
         {
           custid: 2,
-          name: "GoGreen",
+          name: "Green Dot",
           amt: 75,
             transDt: "06-21-2019"
         },
         {
           custid: 2,
-          name: "GoGreen",
+          name: "Green Dot",
           amt: 200,
             transDt: "07-01-2018"
         },
         {
           custid: 2,
-          name: "GoGreen",
+          name: "Green Dot",
           amt: 224,
             transDt: "07-21-2018"
         },

@@ -129,7 +129,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-10">
-            <h2>Customer Transactions Reward Points Calculation Dash Board</h2>
+            <h2><font color="green">Customer Transactions Reward Points Calculation Dash Board</font></h2>
           </div>
         </div>
 
@@ -138,8 +138,8 @@ function App() {
             <ReactTable
               data={transactionData.summaryByCustomer}
               defaultPageSize={5}
-              showPagination={false}
               columns={columns}
+
               SubComponent={row => {
                 return (
                   <div>
@@ -165,7 +165,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-10">
-              <h2> Customer Transactions Reward Points Dash Board</h2>
+              <h2> <font color="green">Customer Transactions Reward Points Dash Board</font></h2>
             </div>
           </div>      
           <div className="row">
@@ -174,7 +174,8 @@ function App() {
                 data={transactionData.totalPointsByCustomer}
                 columns={totalsByColumns}
                 defaultPageSize={5}
-                showPagination={false}
+                color ="green"
+
               />
             </div>
           </div>
