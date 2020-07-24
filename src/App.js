@@ -174,8 +174,7 @@ function App() {
                 data={transactionData.totalPointsByCustomer}
                 columns={totalsByColumns}
                 defaultPageSize={5}
-                color ="green"
-
+                font="green"
               />
             </div>
           </div>
